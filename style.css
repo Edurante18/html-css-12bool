@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+.row > div {
+    background-color: lightpink;
+    border: 1px solid black;
+    height: 200px;
+    padding: 5px;
+    float: left;
+}
+
+.row > div > div {
+    background-color: lightcoral;
+    border: 1px solid white;
+    height: 190px;
+    float: left;
+}
